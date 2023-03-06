@@ -54,7 +54,7 @@ function main() {
   ctx.beginPath();
   ctx.moveTo(lastPath.x, lastPath.y);
   // draw a line from the current position to the random position
-  ctx.lineTo(xOffset, yOffset);
+  ctx.lineTo(ranX, ranY);
   ctx.stroke();
   lastPath = {
     x: ranX,
