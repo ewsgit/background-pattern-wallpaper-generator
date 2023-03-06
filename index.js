@@ -38,8 +38,12 @@ let lastPath = {
   y: 0,
 }
 
+let i = 0;
+
 function main() {
-  // set to a random color
+ i++
+ if (i > 10000) return
+ // set to a random color
   ctx.strokeStyle =
     "rgb(" +
     Math.floor(Math.random() * 255) +
@@ -60,6 +64,7 @@ function main() {
     x: ranX,
     y: ranY,
   }
+  requestAnimationFrame(main);
 }
 
 requestAnimationFrame(main);
