@@ -1,5 +1,5 @@
 /*
- *   Copyright (c) 2022 Ewsgit
+ *   Copyright (c) 2022-2023 Ewsgit
  *   All rights reserved.
 
  *   Permission is hereby granted, free of charge, to any person obtaining a copy
